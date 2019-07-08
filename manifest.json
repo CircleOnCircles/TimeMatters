@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "TimeMatters",
+  "description": "My Personal Toggle Extension",
+  "version": "2019.07.03",
+  "browser_action": {
+    "default_icon": "noun_Fence_2499640.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webNavigation",
+    "tabs", "<all_urls>", "storage"
+  ]
+}
