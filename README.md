@@ -1,1 +1,3 @@
-TimeMatters
+*TimeMatters*
+
+How to use
